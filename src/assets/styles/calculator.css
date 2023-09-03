@@ -1,0 +1,30 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    inline-size: 390px;
+    padding-block: 25px;
+    padding-inline: 5px;
+    border-radius: 40px;
+    background: linear-gradient(165deg, rgba(6, 6, 6, 0.60) 0%, rgba(36, 37, 36, 0.60) 53.19%, rgba(58, 58, 57, 0.62) 101.12%);
+    backdrop-filter: blur(20px);
+
+}
+
+.circle {
+    width: 26px;
+    height: 26px;
+    
+
+}
+.title_container {
+    display: flex;
+    justify-content: conter;
+    align-items: center;
+    gap: 10px;
+    color: #BCBCBC;
+    font-size: 8px;
+    font-weight: 500;
+
+}

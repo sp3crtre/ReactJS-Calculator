@@ -1,0 +1,22 @@
+.screen_container {
+    width: 87%;
+    padding-block: 66px;
+    direction: rtl;
+
+}
+
+.input {
+    height: 25px;
+    margin-block: 5px;
+    color: #9C9C9C;
+    font-size: 20px;
+
+}
+
+.output {
+    height: 40px;
+    margin-block: 5px;
+    color: #BCBCBC;
+    font-size: 30px;
+
+}

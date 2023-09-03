@@ -1,0 +1,50 @@
+button {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    color: white;
+    border-radius: 22px;
+    width: 80px;
+    height: 60px;
+    backdrop-filter: blur(25px);
+
+}
+
+.equal {
+    width: 171px;
+
+}
+
+.btn-black {
+    background: linear-gradient(235deg, rgba(0, 0, 0, 0.17) -20.37%, rgba(15, 13, 13, 0.12) 45.83%, rgba(0, 0, 0, 0.29) 114.18%);
+
+}
+
+.btn-violet {
+    background: linear-gradient(235deg, rgba(203, 0, 255, 0.40) -20.37%, rgba(255, 0, 245, 0.40) 45.83%, rgba(150, 19, 145, 0.40) 114.18%);
+
+}
+
+.btn-black:is(:hover, :active) {
+    background: linear-gradient(235deg, rgba(0, 0, 0, 0.52) -20.37%, rgba(15, 13, 13, 0.38) 45.83%, rgba(0, 0, 0, 0.90) 114.18%);
+
+}
+
+.btn-violet:is(:hover, :active) {
+    background: linear-gradient(235deg, rgba(203, 0, 255, 0.90) -20.37%, rgba(255, 0, 245, 0.90) 45.83%, rgba(150, 19, 145, 0.90) 114.18%);
+
+}
+
+.btn_container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.btn_group {
+    display: flex;
+    column-gap: 5px;
+    gap: 5px;
+    
+}
